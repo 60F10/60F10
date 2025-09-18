@@ -1,0 +1,105 @@
+
+
+.marcoimagen {
+    
+    opacity: 100%;
+    margin-left: 15%; 
+    margin-right: 15%;
+    margin-top: 3%;
+    border-radius: 5px;
+    border-style: outset;
+    border-color: #00ff00;
+    border-width: 1px;
+}
+.imagen{
+    width: 60vw ;
+    padding: 0.5em;
+    align-self:center ;
+}
+
+#todo1 {
+    align-items: center;
+    padding: 5%;
+}
+
+#titulo {
+    background-color: #6f6f6f;
+    opacity: 85%;
+    margin-left: 15%; 
+    margin-right: 15%;
+    border-radius: 10px;
+    padding: 0%;
+    border-style:solid ;
+    border-color: #00ff00;
+    border-width: 3px;
+}
+
+
+.texto {
+    background-color: #6f6f6f;
+    opacity: 85%;
+    margin-left: 15%; 
+    margin-right: 15%;
+    margin-top: 3%;
+    border-radius: 5px;
+    border-style: outset;
+    border-color: #00ff00;
+    border-width: 2px;
+    
+}
+
+body {
+    
+    background-image: url(../img/fondomatrix.jpg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+
+}
+
+h1 {color: #000000;
+    text-align: center;
+    font-family: tourney,sans-serif;
+    font-size: 10em;
+    font-weight: bolder ;
+    font-style: initial ;
+    
+}
+
+h2 { 
+    color: #000000;
+    text-align: justify;
+    ::text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+    font-family: "Iceland", sans-serif;
+    font-weight:bolder ;
+    font-size: 4em;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+h3 { 
+    color: #000000;
+    text-align: justify;
+    margin-left: 2%;
+    font-family: "Iceland", sans-serif;
+    font-weight:bolder ;
+    font-size: 4em;
+    
+}
+
+p { color: #000000;
+    text-align: justify;
+
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+    font-size: 2.1em;
+    font-family: "Iceland", sans-serif;
+    font-weight:bolder ;
+
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
