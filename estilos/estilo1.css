@@ -82,7 +82,7 @@ h2 {
 h3 { 
     color: #000000;
     text-align: justify;
-    margin-left: 2%;
+    margin-left: 4%;
     font-family: "Iceland", sans-serif;
     font-weight:bolder ;
     font-size: 4em;
@@ -99,6 +99,20 @@ p { color: #000000;
     font-weight:bolder ;
 
     padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+ul { color: #000000;
+    text-align: justify;
+
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+    font-size: 1.8em;
+    font-family: "Iceland", sans-serif;
+    font-weight:normal ;
+
+    padding-left: 10%;
     padding-right: 2%;
     padding-bottom: 2%;
 }
