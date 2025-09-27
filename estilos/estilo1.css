@@ -10,10 +10,10 @@
     border-style: outset;
     border-color: #00ff00;
     border-width: 1px;
+    padding: 1% 1% 1% 1%;
 }
 .imagen{
     width: 60vw ;
-    padding: 0.5em;
     align-self:center ;
 }
 
@@ -60,7 +60,7 @@ body {
 h1 {color: #000000;
     text-align: center;
     font-family: tourney,sans-serif;
-    font-size: 10em;
+    font-size: 9.5em;
     font-weight: bolder ;
     font-style: initial ;
     
@@ -106,11 +106,11 @@ p { color: #000000;
 ul { color: #000000;
     text-align: justify;
 
-    line-height: 1.5em;
+    line-height: 2em;
     letter-spacing: 0.05em;
     font-size: 1.8em;
     font-family: "Iceland", sans-serif;
-    font-weight:normal ;
+    font-weight:bolder ;
 
     padding-left: 10%;
     padding-right: 2%;
