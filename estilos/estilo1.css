@@ -190,7 +190,7 @@
 
 
 /* ----- VISTA MÓVIL ----- */
-@media (max-width: 768px) {
+@media (max-width: 1024px), (hover: none) and (pointer: coarse) {
   .contenido {
     display: none;
     grid-template-columns: 1fr; /* una sola columna */
