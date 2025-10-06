@@ -189,79 +189,83 @@
 
 
 
-/* ----- VISTA MÓVIL ----- */
-@media (max-width: 1024px), (hover: none) and (pointer: coarse) {
-  .contenido {
-    display: none;
-    grid-template-columns: 1fr; /* una sola columna */
-    grid-template-areas:
-      "primer_parrafo"
-      "columna3"
-      "columna1"
-      "columna2"
-      "imagen5div";
-    gap: 2em;
-    justify-items: center;
-  }
+            /* ----- VISTA MÓVIL ----- */
+            @media (max-width: 800px), (hover: none) and (pointer: coarse) {
+              .contenido {
+                display: none;
+                grid-template-columns: 1fr; /* una sola columna */
+                grid-template-areas:
+                  "primer_parrafo"
+                  "columna3"
+                  "columna1"
+                  "columna2"
+                  "imagen5div";
+                gap: 2em;
+                justify-items: center;
+              }
 
-    .contenido.show{
-    display: grid;
-    
-    }
+                .contenido.show{
+                display: grid;
+                
+                }
 
-    #titulo {
-    font-size: 8vw;
-    margin: 0 5% 0 5%;
-    display: flex;
-    flex-direction: column; /* separa en dos líneas */
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    line-height: 1.2;
-    }
+                #titulo {
+                font-size: 8vw;
+                margin: 0 5% 0 5%;
+                display: flex;
+                flex-direction: column; /* separa en dos líneas */
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                line-height: 1.2;
+                }
 
-    .subtitulo1 {
-    font-size: 3vw;
-    
-    }
+                .subtitulo1 {
+                font-size: 3vw;
+                
+                }
 
-  /* Asignar áreas a cada bloque */
-  #primer_parrafo {
-    grid-area: primer_parrafo;
-    width: 90vw;
-  }
+              /* Asignar áreas a cada bloque */
+              #primer_parrafo {
+                grid-area: primer_parrafo;
+                width: 90vw;
+              }
 
-  #columna2 {
-    grid-area: columna2;
-  }
+              #columna2 {
+                grid-area: columna2;
+              }
 
-  #columa1 {
-    grid-area: columa1;
-  }
+              #columa1 {
+                grid-area: columa1;
+              }
 
-  #columa3 {
-    grid-area: columa3;
-  }
+              #columa3 {
+                grid-area: columa3;
+              }
 
-  #imagen5div {
-    grid-area: imagen5div;
-  }
+              #imagen5div {
+                grid-area: imagen5div;
+              }
 
-  /* Ajustes visuales en móvil */
-  .imagen {
-    width: 83vw;
-  }
+              /* Ajustes visuales en móvil */
+              .imagen {
+                width: 83vw;
+              }
 
-  .texto {
-    font-size: 4vw;
-    margin: 0 15% 0 0;
-  }
+              .texto {
+                font-size: 4vw;
+                margin: 0 15% 0 0;
+                text-justify: auto;
+              }
 
-  .subtitulo2 {
-    font-size: 4.7vw;
-  }
+              .subtitulo2 {
+                font-size: 4.7vw;
+              }
 
-  #btnInfo {
-    font-size: 5vw;
-  }
-}
+              #btnInfo {
+                font-size: 5vw;
+              }
+            }
+
+
+
