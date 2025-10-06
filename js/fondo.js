@@ -6,7 +6,7 @@
     canvas.width = window.innerWidth;
 
     const letras = "ア01ァカ01サタ01ナハマ01ヤャラ01ワン01";
-    const fontSize = 8;
+    const fontSize = 5;
     const columnas = canvas.width / fontSize;
 
     let lluvia = [];
