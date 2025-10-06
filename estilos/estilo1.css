@@ -221,7 +221,7 @@
     }
 
     .subtitulo1 {
-    font-size: 2vw;
+    font-size: 3vw;
     
     }
 
@@ -249,19 +249,19 @@
 
   /* Ajustes visuales en móvil */
   .imagen {
-    width: 80vw;
+    width: 83vw;
   }
 
   .texto {
-    font-size: 3.5vw;
+    font-size: 4vw;
     margin: 0 15% 0 0;
   }
 
   .subtitulo2 {
-    font-size: 4vw;
+    font-size: 4.7vw;
   }
 
   #btnInfo {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 }
