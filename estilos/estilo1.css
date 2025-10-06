@@ -180,3 +180,64 @@
     opacity: 90%; 
     }      
 }
+
+
+
+/* ----- VISTA MÓVIL ----- */
+@media (max-width: 768px) {
+  .contenido {
+    display: grid;
+    grid-template-columns: 1fr; /* una sola columna */
+    grid-template-areas:
+      "primer_parrafo"
+      "columna2"
+      "columna1"
+      "columna3"
+      "imagen5div";
+    gap: 2em;
+    justify-items: center;
+  }
+
+  /* Asignar áreas a cada bloque */
+  #primer_parrafo {
+    grid-area: primer_parrafo;
+    width: 90vw;
+  }
+
+  #columna2 {
+    grid-area: columna2;
+  }
+
+  #columa1 {
+    grid-area: columa1;
+  }
+
+  #columa3 {
+    grid-area: columa3;
+  }
+
+  #imagen5div {
+    grid-area: imagen5div;
+  }
+
+  /* Ajustes visuales en móvil */
+  .imagen {
+    width: 80vw;
+  }
+
+  .texto {
+    font-size: 3.5vw;
+  }
+
+  .subtitulo2 {
+    font-size: 4vw;
+  }
+
+  #titulo {
+    font-size: 8vw;
+  }
+
+  #btnInfo {
+    font-size: 4vw;
+  }
+}
